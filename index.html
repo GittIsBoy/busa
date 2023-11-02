@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css" />
+    <link rel="shortcut icon" href="asset/icon/icon.png" type="image/x-icon" />
+    <title>BUSA - online store</title>
+  </head>
+  <body>
+    <!-- header -->
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-2">
+        <a
+          href="#"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <img
+            src="asset/icon/icon.png"
+            alt="Bootstrap"
+            width="30"
+            height="24"
+          />
+          <span class="fs-4 mx-2">BUSA Online Store</span>
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item"><a href="#produk" class="nav-link">Produk</a></li>
+          <li class="nav-item"><a href="#harga" class="nav-link">Harga</a></li>
+          <li class="nav-item"><a href="#kontak" class="nav-link">Kontak</a></li>
+          <li class="nav-item"><a href="#tentang" class="nav-link">Tentang</a></li>
+        </ul>
+      </header>
+    </div>
+    <!-- causer-->
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="asset/slider/slider1.jpg" class="d-block w-100" alt="..." />
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Buah-buahan terbaik</h1>
+              <p class="opacity-75">
+                Dapatkan informasi terbaik dan berkualitas di web ini.
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#">Beli Sekarang</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="asset/slider/slider2.jpg" class="d-block w-100" alt="..." />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Semua sayuran segar dan sehat</h1>
+              <p>Pilih sayuran yang anda butuhkan.</p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#">Beli Sekarang</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="asset/slider/slider3.jpg" class="d-block w-100" alt="..." />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Sayur segar</h1>
+              <p>Pilih sayuran yang anda butuhkan.</p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#">Beli Sekarang</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="asset/slider/slider4.jpg" class="d-block w-100" alt="..." />
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>buah dan sayur segar</h1>
+              <p>Dapatkan Buah dan Sayur berkualitas.</p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#">Beli Sekarang</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- hero -->
+    <div id="produk" class="px-4 py-5 my-2 text-center">
+      <img
+        class="d-block mx-auto mb-4"
+        src="asset/logo.png"
+        alt=""
+        width="72"
+        height="57"
+      />
+      <h1 class="display-5 fw-bold text-body-emphasis">BUSA Online Store</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Kini anda tidak usah repot-repot pergi ke pasar untuk memenuhi
+          kebutuhan dapur. Temukan produk buah-buahan, sayuran segardan organik
+          penuh nutrisi untuk penuhi kebutuhan harian. Belanja Sayur dan Buah
+          segar dengan gratis onkir sekarang.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+            Selengkapnya
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- buah -->
+    <div id="harga" class="container">
+      <h1 class="mx-5">Ragam Buah Terbaik</h1>
+      <hr class="mx-5" />
+      <div class="row align-items-center mx-5">
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img src="asset/jeruk.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Jeruk Medan</h5>
+              <p class="card-text">
+                Buah jeruk yang enak bagus untuk diet sehat.
+              </p>
+              <p>Harga Rp 68.000</p>
+              <a
+                href="#"
+                class="btn btn-primary row d-flex justify-content-center align-content-center mx-1"
+                >BELI</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img src="asset/apel.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Apel Malang</h5>
+              <p class="card-text">
+                Buah apel yang segar dengan kualitas terbaik.
+              </p>
+              <p>Harga Rp 86.000</p>
+              <a
+                href="#"
+                class="btn btn-primary row d-flex justify-content-center align-content-center mx-1"
+                >BELI</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img src="asset/anggur.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Anggur seedless</h5>
+              <p class="card-text">
+                Buah anggur dengan kualitas terbaik namun terlalu mahal,.
+              </p>
+              <p>Harga Rp 86.000</p>
+              <a
+                href="#"
+                class="btn btn-primary row d-flex justify-content-center align-content-center mx-1"
+                >BELI</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img src="asset/pisang.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Pisang Ambon</h5>
+              <p class="card-text">
+                Buah pisang yang enak bagus untuk diet sehat .
+              </p>
+              <p>Harga Rp 54.000</p>
+              <a
+                href="#"
+                class="btn btn-primary row d-flex justify-content-center align-content-center mx-1"
+                >BELI</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-3 my-4">
+          <div class="card" style="width: 18rem">
+            <img src="asset/naga.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Naga Merah</h5>
+              <p class="card-text">Buah naga merah dengan kualitas terbaik</p>
+              <p>Harga Rp 60.000</p>
+              <a
+                href="#"
+                class="btn btn-primary row d-flex justify-content-center align-content-center mx-1"
+                >BELI</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img src="asset/strawbery.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">strawbery Jumbo</h5>
+              <p class="card-text">Buah strawbery dengan kualitas terbaik.</p>
+              <p>Harga Rp 40.000</p>
+              <a
+                href="#"
+                class="btn btn-primary row d-flex justify-content-center align-content-center mx-1"
+                >BELI</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img src="asset/nanas.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Nanas Madu</h5>
+              <p class="card-text">Buah nanas madu dengan kualitas terbaik.</p>
+              <p>Harga Rp 70.000</p>
+              <a
+                href="#"
+                class="btn btn-primary row d-flex justify-content-center align-content-center mx-1"
+                >BELI</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img src="asset/mangga.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Mangga Gagdon</h5>
+              <p class="card-text">
+                Buah mangga Gagdon dengan kualitas terbaik.
+                </p>
+                <p>Harga Rp 45.000</p>
+                  <a href="#"
+                  class="btn btn-primary row d-flex justify-content-center align-content-center mx-1"
+                  >BELI</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5">
+      <h1 class="mx-5">Ragam Sayuran Sega</h1>
+      <hr class="mx-5" />
+      <div class="row align-items-center mx-5">
+        <div class="col-3">
+          <div class="card my-4" style="width: 18rem">
+            <img src="asset/cabaimerah.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Cabai Merah</h5>
+              <p class="card-text">
+                Cabai merah segar dengan kualitas terbaik langsung dari petani.
+              </p>
+              <p>Harga Rp 58.000</p>
+              <a
+                href="#"
+                class="btn btn-primary row d-flex justify-content-center align-content-center mx-1"
+                >BELI</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img src="asset/paprika.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">paprika</h5>
+              <p class="card-text">
+                paprika merah segar dengan kualitas terbaik langsung dari petani.
+              </p>
+              <p>Harga Rp 35.000</p>
+              <a
+                href="#"
+                class="btn btn-primary row d-flex justify-content-center align-content-center mx-1"
+                >BELI</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img src="asset/sawi.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Sawi Organik</h5>
+              <p class="card-text">
+                Sawi organik  segar dengan kualitas terbaik langsung dari petani.
+              </p>
+              <p>Harga Rp 45.000</p>
+              <a
+                href="#"
+                class="btn btn-primary row d-flex justify-content-center align-content-center mx-1"
+                >BELI</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img src="asset/tomat.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Tomat Jepang</h5>
+              <p class="card-text">
+                Tomat segar dengan kualitas terbaik langsung dari petani.
+              </p>
+              <p>Harga Rp 54.000</p>
+              <a
+                href="#"
+                class="btn btn-primary row d-flex justify-content-center align-content-center mx-1"
+                >BELI</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img src="asset/wortel.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">wortel Merah</h5>
+              <p class="card-text">
+                wortel merah segar dengan kualitas terbaik langsung dari petani.
+              </p>
+              <p>Harga Rp 35.000</p>
+              <a
+                href="#"
+                class="btn btn-primary row d-flex justify-content-center align-content-center mx-1"
+                >BELI</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img src="asset/brokoli.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Kol lotus</h5>
+              <p class="card-text">
+                Kol lotus segar dengan kualitas terbaik langsung dari petani.
+              </p>
+              <p>Harga Rp 28.000</p>
+              <a
+                href="#"
+                class="btn btn-primary row d-flex justify-content-center align-content-center mx-1"
+                >BELI</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img src="asset/terong.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Terong Ungu</h5>
+              <p class="card-text">
+               Terong Ungu segar dengan kualitas terbaik langsung dari petani.
+              </p>
+              <p>Harga Rp 45.000</p>
+              <a
+                href="#"
+                class="btn btn-primary row d-flex justify-content-center align-content-center mx-1"
+                >BELi</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem">
+            <img src="asset/kentang.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Kentang Laptop</h5>
+              <p class="card-text">
+                Kentang laptop segar dengan kualitas terbaik langsung dari petani.
+              </p>
+              <p>Harga Rp 38.000</p>
+              <a
+                href="#"
+                class="btn btn-primary row d-flex justify-content-center align-content-center mx-1"
+                >BELI</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- icontact -->
+    <div id="kontak" class="container col-xl-10 col-xxl-8 px-3 py-4">
+      <div class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">
+            Dapatkan Promo dan Diskon
+          </h1>
+          <p class="col-lg-10 fs-4">
+           Jangan sampai ketinggalan yuk dapatkan informasi
+           terbau dan penawaran menarik dari berbagai produk
+           Busa Online Store ini.
+          </p>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+          <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="sigitwahaba@gmail.com"
+              />
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="checkbox mb-3"></div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">
+              SUBCRIBE
+            </button>
+            <hr class="my-4" />
+            <small class="text-body-secondary"
+              >Daftar dan dapatkan Diskon menarik.</small
+            >
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- tentang -->
+    <div id="tentang" class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+            <img class="mx-2" src="asset/icon/icon.png" alt="">
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary"
+            >&copy; BUSA - Online Store</span
+          >
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><img src="asset/icon/instagram.png" alt=""
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><img src="asset/icon/facebook.png" alt=""
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><img src="asset/icon/twitter.png" alt=""
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
